@@ -28,4 +28,10 @@ why doesn't this work
 for i,line in ipairs(luamap) do
   print("i"..i.."line"..line)
 end
+
+because we should use pairs here
 --]]
+
+for i,line in pairs(luamap) do
+  print("i"..i.."line"..line)
+end
